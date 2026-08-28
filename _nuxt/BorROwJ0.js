@@ -1,0 +1,1 @@
+import{K as e,M as t,X as n,o as r}from"#entry";var i={};function a(r,i){return e(),t(`ul`,null,[n(r.$slots,`default`)])}var o=Object.assign(r(i,[[`render`,a]]),{__name:`ProseUl`});export{o as default};

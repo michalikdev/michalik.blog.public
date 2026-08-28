@@ -1,2 +1,6 @@
-User-Agent: *
-Disallow:
+# Not open yet. Nothing here is meant to be indexed.
+#
+# Flip SITE.indexable in app/utils/site.ts and this file, the per-page directives and the
+# sitemap announcement all change together.
+User-agent: *
+Disallow: /
