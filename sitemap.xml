@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://michalik.blog/</loc>
     <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing</loc>
+    <loc>https://michalik.blog/writing</loc>
     <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://example.com/about</loc>
+    <loc>https://michalik.blog/about</loc>
     <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/every-element</loc>
+    <loc>https://michalik.blog/writing/every-element</loc>
     <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/serverless-is-a-billing-model</loc>
+    <loc>https://michalik.blog/showcase/intake-pipeline</loc>
+    <lastmod>2026-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://michalik.blog/writing/serverless-is-a-billing-model</loc>
     <lastmod>2026-08-26</lastmod>
   </url>
   <url>
-    <loc>https://example.com/tools/example-tool</loc>
+    <loc>https://michalik.blog/tools/example-tool</loc>
     <lastmod>2026-08-16</lastmod>
   </url>
   <url>
-    <loc>https://example.com/updates/example-release</loc>
+    <loc>https://michalik.blog/updates/example-release</loc>
     <lastmod>2026-08-16</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/form-on-a-static-site</loc>
+    <loc>https://michalik.blog/writing/form-on-a-static-site</loc>
     <lastmod>2026-08-14</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/apps-script-as-a-backend</loc>
+    <loc>https://michalik.blog/writing/apps-script-as-a-backend</loc>
     <lastmod>2026-07-30</lastmod>
   </url>
   <url>
-    <loc>https://example.com/updates/example-push</loc>
+    <loc>https://michalik.blog/updates/example-push</loc>
     <lastmod>2026-06-26</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/queue-instead-of-cron</loc>
+    <loc>https://michalik.blog/writing/queue-instead-of-cron</loc>
     <lastmod>2026-06-24</lastmod>
   </url>
   <url>
-    <loc>https://example.com/writing/reading-fewer-rows</loc>
+    <loc>https://michalik.blog/writing/reading-fewer-rows</loc>
     <lastmod>2026-05-20</lastmod>
   </url>
 </urlset>
