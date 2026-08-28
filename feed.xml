@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Paweł Michalik</title>
   <subtitle>Data engineer · Kraków</subtitle>
-  <link href="https://michalik.blog/feed.xml" rel="self"/>
-  <link href="https://michalik.blog/"/>
-  <id>https://michalik.blog/</id>
+  <link href="https://preview.michalik.blog/feed.xml" rel="self"/>
+  <link href="https://preview.michalik.blog/"/>
+  <id>https://preview.michalik.blog/</id>
   <updated>2026-08-28T00:00:00.000Z</updated>
   <author>
     <name>Paweł Michalik</name>
@@ -12,8 +12,8 @@
   </author>
   <entry>
     <title>Every element on this site, and when to use each one</title>
-    <link href="https://michalik.blog/writing/every-element"/>
-    <id>https://michalik.blog/writing/every-element</id>
+    <link href="https://preview.michalik.blog/writing/every-element"/>
+    <id>https://preview.michalik.blog/writing/every-element</id>
     <updated>2026-08-28T00:00:00.000Z</updated>
     <summary>The whole vocabulary an article here can use — rendered, with the markup that produced it, and with the case against each one where there is a case. Write plain HTML with known classes. There is no syntax to learn and nothing to import. Every widget is a real element — an aside, an ordered list, a description list, a figure — so the page still works read aloud or printed. Two things have logic in them and are therefore components: the chart and the console replay. Everything else is CSS. Most of the entries below carry a warning about when NOT to use them. Those are the useful half.</summary>
     <category term="reference"/>
@@ -21,8 +21,8 @@
   </entry>
   <entry>
     <title>The intake pipeline, running</title>
-    <link href="https://michalik.blog/showcase/intake-pipeline"/>
-    <id>https://michalik.blog/showcase/intake-pipeline</id>
+    <link href="https://preview.michalik.blog/showcase/intake-pipeline"/>
+    <id>https://preview.michalik.blog/showcase/intake-pipeline</id>
     <updated>2026-08-27T00:00:00.000Z</updated>
     <summary>Two minutes of the document pipeline doing its job, plus the screens it produces and the console it prints while it works. A showcase is pictures, a recording and a link — the words around them stay short on purpose. The video is a thumbnail and a link, never an embedded player: an embed weighs about a megabyte and reports every reader to YouTube. The console transcript is real text in the page, so it can be copied and searched.</summary>
     <category term="local-ai"/>
@@ -31,8 +31,8 @@
   </entry>
   <entry>
     <title>Serverless is a billing model, not an architecture</title>
-    <link href="https://michalik.blog/writing/serverless-is-a-billing-model"/>
-    <id>https://michalik.blog/writing/serverless-is-a-billing-model</id>
+    <link href="https://preview.michalik.blog/writing/serverless-is-a-billing-model"/>
+    <id>https://preview.michalik.blog/writing/serverless-is-a-billing-model</id>
     <updated>2026-08-26T00:00:00.000Z</updated>
     <summary>The interesting property was never &quot;no servers&quot;. It is that idle costs nothing — and every design consequence follows from that one line on the invoice. Serverless changes what you are charged for, not how the system is built: you pay per run instead of per hour. That makes it excellent for anything that is idle most of the time — forms, webhooks, nightly jobs. It is a poor fit for steady all-day load, long connections, or work that will not finish inside one invocation. Paying nothing at idle and paying without limit under load are the same property, so put a cap on the account.</summary>
     <category term="serverless"/>
@@ -42,8 +42,8 @@
   </entry>
   <entry>
     <title>form-worker</title>
-    <link href="https://michalik.blog/tools/example-tool"/>
-    <id>https://michalik.blog/tools/example-tool</id>
+    <link href="https://preview.michalik.blog/tools/example-tool"/>
+    <id>https://preview.michalik.blog/tools/example-tool</id>
     <updated>2026-08-16T00:00:00.000Z</updated>
     <summary>One Cloudflare Worker that validates a form, drops the obvious spam and forwards the rest. No dependencies.</summary>
     <category term="serverless"/>
@@ -52,8 +52,8 @@
   </entry>
   <entry>
     <title>form-worker 0.3 — honeypot and per-address rate limit</title>
-    <link href="https://michalik.blog/updates/example-release"/>
-    <id>https://michalik.blog/updates/example-release</id>
+    <link href="https://preview.michalik.blog/updates/example-release"/>
+    <id>https://preview.michalik.blog/updates/example-release</id>
     <updated>2026-08-16T00:00:00.000Z</updated>
     <summary>The forty-line Worker behind the contact form, with the two things that stop most of the noise.</summary>
     <category term="serverless"/>
@@ -61,8 +61,8 @@
   </entry>
   <entry>
     <title>A form on a static site needs one Worker and nothing else</title>
-    <link href="https://michalik.blog/writing/form-on-a-static-site"/>
-    <id>https://michalik.blog/writing/form-on-a-static-site</id>
+    <link href="https://preview.michalik.blog/writing/form-on-a-static-site"/>
+    <id>https://preview.michalik.blog/writing/form-on-a-static-site</id>
     <updated>2026-08-14T00:00:00.000Z</updated>
     <summary>A static site cannot receive a POST. Everything else about adding a contact form is downstream of that one sentence — and the whole answer fits on a screen. A static site cannot receive a POST, so a contact form needs exactly one function that can. Roughly forty lines of edge function: validate the fields, drop the obvious spam, forward the rest. Answer with a redirect rather than JSON, so the form still works without JavaScript. Keep the destination address in a secret on the function — never in the page, where anyone can read it.</summary>
     <category term="serverless"/>
@@ -71,8 +71,8 @@
   </entry>
   <entry>
     <title>Google Apps Script is a worse backend than you want and a better one than you think</title>
-    <link href="https://michalik.blog/writing/apps-script-as-a-backend"/>
-    <id>https://michalik.blog/writing/apps-script-as-a-backend</id>
+    <link href="https://preview.michalik.blog/writing/apps-script-as-a-backend"/>
+    <id>https://preview.michalik.blog/writing/apps-script-as-a-backend</id>
     <updated>2026-07-30T00:00:00.000Z</updated>
     <summary>It has no dependency management, no real editor and a hard execution limit. It also gives you a database, an authenticated mail sender and a scheduler for nothing, already connected to each other. Apps Script gives you a store, an authenticated mail sender, a scheduler and an identity with no keys to manage. It costs you dependency management, a hard runtime limit per execution, and quotas that stop public use. Right for internal tools at human pace where the data already lives in a spreadsheet. Put an edge function in front of it: the script URL stays private and validation happens before quota is spent.</summary>
     <category term="serverless"/>
@@ -81,8 +81,8 @@
   </entry>
   <entry>
     <title>A queue table, extracted into something reusable</title>
-    <link href="https://michalik.blog/updates/example-push"/>
-    <id>https://michalik.blog/updates/example-push</id>
+    <link href="https://preview.michalik.blog/updates/example-push"/>
+    <id>https://preview.michalik.blog/updates/example-push</id>
     <updated>2026-06-26T00:00:00.000Z</updated>
     <summary>The thirty lines from the queue post, pulled out of one project and given a schema and two functions.</summary>
     <category term="automation"/>
@@ -90,8 +90,8 @@
   </entry>
   <entry>
     <title>What a queue gets you that a scheduled job never will</title>
-    <link href="https://michalik.blog/writing/queue-instead-of-cron"/>
-    <id>https://michalik.blog/writing/queue-instead-of-cron</id>
+    <link href="https://preview.michalik.blog/writing/queue-instead-of-cron"/>
+    <id>https://preview.michalik.blog/writing/queue-instead-of-cron</id>
     <updated>2026-06-24T00:00:00.000Z</updated>
     <summary>A job that runs every hour hides its failures for an hour, overlaps with itself under load, and cannot tell you which item is stuck. A queue is barely more code. A scheduled job fails quietly in three ways: it overlaps itself, silently skips, or hides a single stuck item. A queue is one table and one query — the whole trick is `for update skip locked`. What you gain is per-item state: what is stuck, how far behind you are, and retrying one record instead of all of them. Keep the timer. Its job becomes putting work into the queue rather than doing the work.</summary>
     <category term="automation"/>
@@ -99,8 +99,8 @@
   </entry>
   <entry>
     <title>The only query optimisation that always works is reading less</title>
-    <link href="https://michalik.blog/writing/reading-fewer-rows"/>
-    <id>https://michalik.blog/writing/reading-fewer-rows</id>
+    <link href="https://preview.michalik.blog/writing/reading-fewer-rows"/>
+    <id>https://preview.michalik.blog/writing/reading-fewer-rows</id>
     <updated>2026-05-20T00:00:00.000Z</updated>
     <summary>Most slow queries are not slow because the engine is slow. They are slow because they read a year to answer a question about a week, and no amount of tuning fixes that. Most slow queries read far more data than the answer needs; no setting fixes that. Name your columns, keep partition pruning by never wrapping the date column in a function. Cluster on what you filter by, not what you group by, and filter before joining rather than after. A bigger machine works once and the problem returns at the new size, with the invoice permanently larger.</summary>
     <category term="data-engineering"/>
